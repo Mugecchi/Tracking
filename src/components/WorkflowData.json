@@ -1,0 +1,76 @@
+{
+  "wf": [
+    {
+      "AssignTo": "<nochange>",
+      "color": "cyan",
+      "ixStatus": 50,
+      "required": {
+        "ixStatus": [100]
+      },
+      "sStatus": "Open"
+    },
+    {
+      "AssignTo": "<nochange>",
+      "color": "indigo",
+      "ixStatus": 100,
+      "required": {
+        "ixStatus": [300, 150]
+      },
+      "sStatus": "Open - Profiled"
+    },
+    {
+      "AssignTo": "<nochange>",
+      "color": "purple",
+      "ixStatus": 150,
+      "required": {
+        "ixStatus": [200]
+      },
+      "sStatus": "Open - Booked for Demo"
+    },
+    {
+      "AssignTo": "<nochange>",
+      "color": "orange",
+      "ixStatus": 200,
+      "sStatus": "For Proposal",
+      "required": {
+        "ixStatus": [250, 350]
+      }
+    },
+    {
+      "AssignTo": [],
+      "color": "green",
+      "ixStatus": 250,
+      "required": {
+        "ixStatus": [1000]
+      },
+      "sStatus": "Closed - For Deployment"
+    },
+    {
+      "AssignTo": [],
+      "color": "red",
+      "ixStatus": 300,
+      "required": {
+        "ixStatus": []
+      },
+      "sStatus": "Disqualified by Radztech"
+    },
+    {
+      "AssignTo": "<nochange>",
+      "color": "red",
+      "ixStatus": 350,
+      "sStatus": "Rejected by Client",
+      "required": {
+        "ixStatus": []
+      }
+    },
+    {
+      "AssignTo": [],
+      "color": "grey",
+      "ixStatus": 1000,
+      "sStatus": "Closed - Deployed",
+      "required": {
+        "ixStatus": []
+      }
+    }
+  ]
+}
